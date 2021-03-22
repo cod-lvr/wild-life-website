@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Yanone+Kaffeesatz&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Berkshire Swash', cursive, 'Yanone Kaffeesatz', sans-serif;
+    box-sizing: inherit;
+}
+
+:root {
+    --main: #7a9d47;
+    --nav: #c2b37f;
+    --button: #4f5126;
+}
+/* navbar */
+#navbar {
+    background-color: var(--nav);
+    box-shadow: 1px 1px 4px var(--button);
+    padding: 10px;
+    text-align: end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 12;
+}
+
+.navbar-link {
+    color: var(--main);
+    text-decoration: 0;
+    font-weight: bold;
+    margin-right: 16px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.navbar-link:hover {
+    color: #fff;
+}
+
+/* welcome section */
+.welcome {
+    background: url(img/main.jpg);
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    position: relative;
+    min-height: 100vmin;
+}
+
+.content-box {
+    background-color: var(--nav);
+    display: block;
+    position: absolute;
+    text-transform: capitalize;
+    font-family: 'Kaffeesatz';
+    border-radius: 4px;
+    padding: 60px;
+    width: 40%;
+    height: 50%;
+    top: 260px;
+    right: 10px;
+    opacity: 0.7;
+}
+
+.content-box h1 {
+    font-family: 'Berkshire Swash';
+    padding-left: 10px;
+    letter-spacing: 3px;
+}
+
+.def {
+    text-transform: uppercase;
+    color: var(--button);
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 8px;
+    border: 0;
+    font-size: 14px;
+}
+
+.def:hover {
+    background-color: var(--main);
+    color: #fff;
+}
+
+/* secound section */
+.secound {
+    background-color: var(--main);
+    font-family: 'Kaffeesatz';
+    text-transform: capitalize;
+    min-height: 50vmin;
+    line-height: 26px;
+    padding: 80px;
+}
+
+.secound h3 {
+    font-family: 'Berkshire Swash';
+    font-size: 30px;
+}
+
+hr {
+    width: 30%;
+    padding: 1px;
+}
+
+.secound  p {
+    text-align: justify;
+    margin-top: 2px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* third section */
+.third {
+    background-color: var(--nav);
+    font-family: 'Kaffeesatz';
+    text-transform: capitalize;
+    min-height: 80vmin;
+    line-height: 26px;
+    padding: 100px;
+}
+
+.content-box2 {
+    background-color: var(--nav);
+    display: block;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Kaffeesatz';
+    margin-right: -360px;
+    border-radius: 4px;
+    padding: 30px;
+    width: 30%;
+    height: 20%;
+    top: 520px;
+    right: 10px;
+    z-index: 1;
+}
+
+.content-box2 h1 {
+    font-family: 'Berkshire Swash';
+    padding-left: 10px;
+    letter-spacing: 3px;
+}
+
+.content-box2 p {
+    text-align: justify;
+    margin-top: 2px;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.sec {
+    text-transform: uppercase;
+    border: 0;
+    border-bottom: 5px solid var(--nav);
+    background-color: transparent;
+    color: var(--button);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1px;
+}
+
+.sec:hover {
+    background-color: var(--main);
+    color: #fff;
+}
+
+.why {
+    background: url(img/sec.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: local;
+    position: relative;
+    height: 100vmin;
+    width: 100vmax;
+    z-index: 0.7;
+}
+
+/* fourth section */
+.fourth {
+    background-color: var(--main);
+    font-family: 'Kaffeesatz';
+    text-transform: capitalize;
+    min-height: 70vmin;
+    line-height: 26px;
+    padding: 90px;
+}
+
+.content-box3 {
+    display: block;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Kaffeesatz';
+    padding: 30px;
+    width: 50%;
+    height: 20%;
+    top: 20px;
+    right: 10px;
+    z-index: 1;
+}
+
+/* five section */
+
+.fifth {
+    background-color: var(--nav);
+    font-family: 'Kaffeesatz';
+    text-transform: capitalize;
+    min-height: 80vmin;
+    line-height: 26px;
+    padding: 60px;
+}
+
+.so {
+    background: url(img/op1.jpg);
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: local;
+    position: relative;
+    height: 60vmin;
+    width: 45vmax;
+    z-index: 0.7;
+}
+
+.content-box4 {
+    display: block;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Kaffeesatz';
+    padding: 30px;
+    width: 50%;
+    height: 20%;
+    top: 20px;
+}
+.content-box4 h1 ,
+.content-box3 h2 {
+    font-family: 'Berkshire Swash';
+}
+/* sixth section */
+.sixth {
+    background-color: var(--nav);
+    font-family: 'Kaffeesatz';
+    text-transform: capitalize;
+    text-align: center;
+    min-height: 80vmin;
+    line-height: 26px;
+    padding: 60px;
+}
+
+.gridy {
+    background-color: var(--main);
+}
+
+.pic {
+    background: url(img/op3.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    position: relative;
+    min-height: 60vmin;
+    width: 35vmax;
+}
+
+.grid {
+    padding : 40px;
+}
+
+/* seven section  */
+.seven {
+    background-color: var(--main);
+    font-family: 'Kaffeesatz';
+    text-transform: capitalize;
+    text-align: start;
+    min-height: 30vmin;
+    line-height: 26px;
+    padding: 60px;
+}
+
+.content-box5 {
+    display: block;
+    position: relative;
+    background-color: var(--nav);
+    text-transform: capitalize;
+    font-family: 'Kaffeesatz';
+    padding: 30px;
+    width: 100%;
+}
+
+.seven h4 {
+    font-family: 'Berkshire Swash';
+}
+
+/* footer */
+.footer {
+    background-color: var(--nav);
+    font-family: 'Kaffeesatz';
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+}
